@@ -1,0 +1,37 @@
+.nav{
+    font-size: 20px;
+    justify-items: center;
+    cursor: pointer;
+}
+.nav li{
+    
+    justify-content: flex-end;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+}
+.btn{
+    visibility: hidden;
+}
+.mobile{
+    visibility: hidden;
+    
+}
+
+@media(max-width: 400px){
+    .btn{
+        visibility: visible;
+        height: 50px;
+        margin-top: -150px;
+    }
+    .nav{
+        visibility: hidden;
+    }
+    .mobile{
+        visibility: visible;
+        display: block;
+        margin-top: -150px;
+        margin-left: -100px;
+        cursor: pointer;
+    }
+}
